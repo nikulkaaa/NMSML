@@ -1,0 +1,40 @@
+DogSpeak Dataset Subset Creation Report
+=============================================
+
+Creation Date: 2025-10-06 14:26:38
+Random Seed: 42
+Target: 10 males + 10 females per breed
+Files per dog: 3
+
+BREED SELECTION SUMMARY:
+-------------------------
+
+CHIHUAHUA:
+  Available dogs: 14 males, 11 females
+  Selected dogs: 10 males, 10 females
+  Files copied: 60
+
+HUSKY:
+  Available dogs: 11 males, 20 females
+  Selected dogs: 10 males, 10 females
+  Files copied: 60
+
+GERMAN SHEPHERD:
+  Available dogs: 19 males, 13 females
+  Selected dogs: 10 males, 10 females
+  Files copied: 60
+
+SHIBA INU:
+  Available dogs: 22 males, 18 females
+  Selected dogs: 10 males, 10 females
+  Files copied: 60
+
+PITBULL:
+  Available dogs: 13 males, 15 females
+  Selected dogs: 10 males, 10 females
+  Files copied: 58
+
+TOTAL SUMMARY:
+  Selected dogs: 50 males + 50 females = 100
+  Total files copied: 298
+  Files per dog (average): 3.0
