@@ -48,7 +48,7 @@ def create_balanced_subset(metadata_path, audio_dir, output_dir, dogs_per_sex=10
     
     # Create output directory structure
     output_path = Path(output_dir)
-    audio_output = output_path / "audio_files"
+    audio_output = output_path
     audio_output.mkdir(parents=True, exist_ok=True)
     
     print(f"📁 Output directory: {output_path}")
@@ -135,11 +135,11 @@ def create_balanced_subset(metadata_path, audio_dir, output_dir, dogs_per_sex=10
     
     # Create new metadata file for subset
     subset_df = pd.DataFrame(subset_data)
-    metadata_output = output_path / "metadata_subset.csv"
+    metadata_output = Path("data/exploration/metadata_subset.csv")
     subset_df.to_csv(metadata_output, index=False)
     
     # Create summary report
-    summary_output = output_path / "subset_creation_report.txt"
+    summary_output = Path("data/exploration/subset_creation_report.txt")
     
     print(f"\n📋 Creating summary report...")
     with open(summary_output, 'w') as f:
@@ -191,9 +191,9 @@ def main():
     
     # Paths
     base_dir = "/Users/nika/Downloads/NMSML"
-    metadata_path = f"{base_dir}/DogSpeak_Dataset/metadata.csv"
-    audio_dir = f"{base_dir}/DogSpeak_Dataset"
-    output_dir = f"{base_dir}/DogSpeak_Subset"
+    metadata_path = f"{base_dir}/data/raw/DogSpeak_Dataset/metadata.csv"
+    audio_dir = f"{base_dir}/data/raw/DogSpeak_Dataset"
+    output_dir = f"{base_dir}/data/raw/subset"
     
     # Parameters
     DOGS_PER_SEX = 10  # males and females per breed
