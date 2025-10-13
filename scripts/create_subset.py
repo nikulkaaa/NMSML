@@ -203,11 +203,11 @@ def main():
     try:
         # Check if source files exist
         if not os.path.exists(metadata_path):
-            print(f"❌ Error: Metadata file not found: {metadata_path}")
+            print(f" Error: Metadata file not found: {metadata_path}")
             return 1
             
         if not os.path.exists(audio_dir):
-            print(f"❌ Error: Audio directory not found: {audio_dir}")
+            print(f" Error: Audio directory not found: {audio_dir}")
             return 1
         
         # Create subset
@@ -220,10 +220,10 @@ def main():
             random_seed=RANDOM_SEED
         )
         
-        print(f"\n🎉 Success! Balanced subset created with {results['total_files']} files from {results['total_dogs']} dogs.")
+        print(f"\nSuccess! Balanced subset created with {results['total_files']} files from {results['total_dogs']} dogs.")
         
     except Exception as e:
-        print(f"❌ Error during subset creation: {e}")
+        print(f"Error during subset creation: {e}")
         import traceback
         traceback.print_exc()
         return 1
