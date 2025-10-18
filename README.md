@@ -42,7 +42,7 @@ I created a subset of 10 females and 10 males from each breed, sampling 3 voice 
 python -m scripts.create_subset
 ```
 ## Extracting F0, F1 and F2 data from voice recordings
-After you've created a subset, run the extract_formants script located in the scripts folder in Praat. This will extract F0, F1 and F2 from all recordings in the subset and create a .csv file that contains all metadata and all extracted daata in data/formants/formants_analysis.csv
+After you've created a subset, run the extract_formants script located in the scripts folder in Praat. This will extract F0, F1 and F2 from all recordings in the subset and create a .csv file that contains all metadata and all extracted daata in data/features/feature_extraction_results.csv
 
 ## Statistical Analysis
 To run the statistical analysis run the following:

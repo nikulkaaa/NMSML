@@ -16,34 +16,31 @@ import shutil
 from pathlib import Path
 import random
 
-def create_balanced_subset(metadata_path, audio_dir, output_dir, dogs_per_sex=10, files_per_dog=3, random_seed=42):
+def create_balanced_subset(metadata_path: str, audio_dir: str, output_dir: str, dogs_per_sex: int = 10, files_per_dog: int = 3, random_seed: int = 42) -> dict:
     """
     Create a balanced subset of the DogSpeak dataset.
     
-    Args:
-        metadata_path (str): Path to metadata.csv
-        audio_dir (str): Directory containing the audio files
-        output_dir (str): Directory to save the subset
-        dogs_per_sex (int): Number of dogs to select per sex per breed (default: 10)
-        files_per_dog (int): Number of audio files to sample per dog (default: 3)
-        random_seed (int): Random seed for reproducibility (default: 42)
-    
-    Returns:
-        dict: Summary of the subset creation
+    :param metadata_path: Path to metadata.csv
+    :param audio_dir: Directory containing the audio files
+    :param output_dir: Directory to save the subset
+    :param dogs_per_sex: Number of dogs to select per sex per breed (default: 10)
+    :param files_per_dog: Number of audio files to sample per dog (default: 3)
+    :param random_seed: Random seed for reproducibility (default: 42)
+    :return: Dict summary of the subset creation
     """
     
     # Set random seed for reproducibility
     np.random.seed(random_seed)
     random.seed(random_seed)
     
-    print("🐕 Creating DogSpeak Balanced Subset")
+    print("Creating DogSpeak Balanced Subset")
     print("=" * 50)
     print(f"Target: {dogs_per_sex} males + {dogs_per_sex} females per breed")
     print(f"Files per dog: {files_per_dog}")
     print(f"Random seed: {random_seed}")
     
     # Load metadata
-    print(f"\n📊 Loading metadata from: {metadata_path}")
+    print(f"\nLoading metadata from: {metadata_path}")
     df = pd.read_csv(metadata_path)
     
     # Create output directory structure
@@ -51,7 +48,7 @@ def create_balanced_subset(metadata_path, audio_dir, output_dir, dogs_per_sex=10
     audio_output = output_path
     audio_output.mkdir(parents=True, exist_ok=True)
     
-    print(f"📁 Output directory: {output_path}")
+    print(f"Output directory: {output_path}")
     
     # Initialize tracking variables
     subset_data = []
@@ -60,10 +57,10 @@ def create_balanced_subset(metadata_path, audio_dir, output_dir, dogs_per_sex=10
     
     # Process each breed
     breeds = df['breed'].unique()
-    print(f"\n🔍 Processing {len(breeds)} breeds: {', '.join(breeds)}")
+    print(f"\nProcessing {len(breeds)} breeds: {', '.join(breeds)}")
     
     for breed in breeds:
-        print(f"\n🐕‍🦺 Processing {breed.upper()}...")
+        print(f"\nProcessing {breed.upper()}...")
         breed_data = df[df['breed'] == breed]
         
         # Get unique dogs by sex
@@ -128,10 +125,10 @@ def create_balanced_subset(metadata_path, audio_dir, output_dir, dogs_per_sex=10
                     total_files_copied += 1
                     breed_summary['files_copied'] += 1
                 else:
-                    print(f"   ⚠️  Warning: Source file not found: {source_file}")
+                    print(f"   WARNING: Source file not found: {source_file}")
         
         selection_summary[breed] = breed_summary
-        print(f"   ✅ Copied {breed_summary['files_copied']} files for {breed}")
+        print(f"   Copied {breed_summary['files_copied']} files for {breed}")
     
     # Create new metadata file for subset
     subset_df = pd.DataFrame(subset_data)
@@ -141,7 +138,7 @@ def create_balanced_subset(metadata_path, audio_dir, output_dir, dogs_per_sex=10
     # Create summary report
     summary_output = Path("data/exploration/subset_creation_report.txt")
     
-    print(f"\n📋 Creating summary report...")
+    print(f"\nCreating summary report...")
     with open(summary_output, 'w') as f:
         f.write("DogSpeak Dataset Subset Creation Report\n")
         f.write("=" * 45 + "\n\n")
@@ -171,13 +168,13 @@ def create_balanced_subset(metadata_path, audio_dir, output_dir, dogs_per_sex=10
         f.write(f"  Files per dog (average): {total_files_copied / (total_selected_males + total_selected_females):.1f}\n")
     
     # Display final summary
-    print(f"\n✅ Subset creation completed!")
-    print(f"📊 Summary:")
-    print(f"   • Total dogs selected: {sum(s['selected_males'] + s['selected_females'] for s in selection_summary.values())}")
-    print(f"   • Total files copied: {total_files_copied}")
-    print(f"   • Metadata file: {metadata_output}")
-    print(f"   • Audio files: {audio_output}")
-    print(f"   • Report: {summary_output}")
+    print(f"\nSubset creation completed!")
+    print(f"Summary:")
+    print(f"   Total dogs selected: {sum(s['selected_males'] + s['selected_females'] for s in selection_summary.values())}")
+    print(f"   Total files copied: {total_files_copied}")
+    print(f"   Metadata file: {metadata_output}")
+    print(f"   Audio files: {audio_output}")
+    print(f"   Report: {summary_output}")
     
     return {
         'total_files': total_files_copied,
@@ -186,9 +183,13 @@ def create_balanced_subset(metadata_path, audio_dir, output_dir, dogs_per_sex=10
         'output_path': output_path
     }
 
-def main():
-    """Main function to create the subset."""
-    
+def main() -> int:
+    """
+    Main function to create the subset.
+
+    :return: Exit code
+    """
+
     # Paths
     base_dir = "/Users/nika/Downloads/NMSML"
     metadata_path = f"{base_dir}/data/raw/DogSpeak_Dataset/metadata.csv"
@@ -198,16 +199,16 @@ def main():
     # Parameters
     DOGS_PER_SEX = 10  # males and females per breed
     FILES_PER_DOG = 3  # audio files per selected dog
-    RANDOM_SEED = 42   # for reproducibility
-    
+    RANDOM_SEED = 42   # random selection for reproducibility
+
     try:
         # Check if source files exist
         if not os.path.exists(metadata_path):
-            print(f" Error: Metadata file not found: {metadata_path}")
+            print(f"ERROR: Metadata file not found: {metadata_path}")
             return 1
             
         if not os.path.exists(audio_dir):
-            print(f" Error: Audio directory not found: {audio_dir}")
+            print(f"ERROR: Audio directory not found: {audio_dir}")
             return 1
         
         # Create subset

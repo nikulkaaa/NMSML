@@ -9,14 +9,27 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Create a custom session that ignores SSL
 class NoSSLSession(requests.Session):
-    def request(self, method, url, **kwargs):
+    def request(self, method: str, url: str, **kwargs) -> requests.Response:
+        """
+        Override request to disable SSL verification.
+        
+        :param method: HTTP method
+        :param url: URL to request
+        :param kwargs: Additional arguments
+        :return: HTTP response
+        """
         kwargs['verify'] = False
         return super().request(method, url, **kwargs)
 
 # Monkey patch requests to use our custom session
 original_session = requests.Session
 
-def patched_session():
+def patched_session() -> requests.Session:
+    """
+    Return a session that ignores SSL verification.
+
+    :return: requests.Session with SSL verification disabled
+    """
     return NoSSLSession()
 
 # Apply the patch

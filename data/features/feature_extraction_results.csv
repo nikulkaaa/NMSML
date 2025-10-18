@@ -1,0 +1,299 @@
+Folder,File,Breed,Sex,F0_mean,F0_min,F0_max,F1_mean,F2_mean
+chihuahua_female,40121_chihuahua_F_dog_62.wav,chihuahua,female,598.6,584.7,609.7,1156.2,1828.4
+chihuahua_female,40122_chihuahua_F_dog_62.wav,chihuahua,female,459.0,447.1,480.6,930.6,1587.2
+chihuahua_female,40125_chihuahua_F_dog_62.wav,chihuahua,female,418.7,166.3,652.2,1061.2,1917.2
+chihuahua_female,44068_chihuahua_F_dog_71.wav,chihuahua,female,388.3,179.3,449.3,1201.1,1726.7
+chihuahua_female,44069_chihuahua_F_dog_71.wav,chihuahua,female,585.8,95.0,797.6,1319.1,1684.2
+chihuahua_female,44073_chihuahua_F_dog_71.wav,chihuahua,female,587.0,404.3,778.1,1206.0,1832.7
+chihuahua_female,44078_chihuahua_F_dog_72.wav,chihuahua,female,454.6,396.9,493.5,923.4,1769.1
+chihuahua_female,44107_chihuahua_F_dog_72.wav,chihuahua,female,493.1,416.5,542.2,960.8,1794.6
+chihuahua_female,44110_chihuahua_F_dog_72.wav,chihuahua,female,425.6,82.8,506.8,899.2,1609.7
+chihuahua_female,44117_chihuahua_F_dog_73.wav,chihuahua,female,526.7,123.6,823.7,911.6,1859.8
+chihuahua_female,44131_chihuahua_F_dog_73.wav,chihuahua,female,493.9,357.4,824.0,969.4,1758.1
+chihuahua_female,44176_chihuahua_F_dog_73.wav,chihuahua,female,403.7,283.6,737.0,570.8,1433.8
+chihuahua_female,44600_chihuahua_F_dog_75.wav,chihuahua,female,532.0,529.7,534.3,854.2,1279.5
+chihuahua_female,44605_chihuahua_F_dog_75.wav,chihuahua,female,599.3,95.9,760.9,1001.1,1813.9
+chihuahua_female,44634_chihuahua_F_dog_75.wav,chihuahua,female,238.6,75.1,625.9,890.6,1349.6
+chihuahua_female,44665_chihuahua_F_dog_76.wav,chihuahua,female,406.6,226.2,798.9,901.6,1848.6
+chihuahua_female,44814_chihuahua_F_dog_76.wav,chihuahua,female,0,0,0,809.3,2185.8
+chihuahua_female,44823_chihuahua_F_dog_76.wav,chihuahua,female,569.0,356.8,837.9,1002.3,1840.8
+chihuahua_female,44914_chihuahua_F_dog_77.wav,chihuahua,female,0,0,0,1159.4,1794.4
+chihuahua_female,44952_chihuahua_F_dog_77.wav,chihuahua,female,533.3,518.2,551.7,1312.7,1699.9
+chihuahua_female,44993_chihuahua_F_dog_77.wav,chihuahua,female,511.6,433.8,572.6,657.2,1275.1
+chihuahua_female,45743_chihuahua_F_dog_79.wav,chihuahua,female,510.9,456.8,555.0,1065.2,1801.5
+chihuahua_female,45752_chihuahua_F_dog_79.wav,chihuahua,female,555.0,453.3,680.0,936.0,1539.8
+chihuahua_female,45754_chihuahua_F_dog_79.wav,chihuahua,female,317.4,231.5,466.5,910.3,1642.9
+chihuahua_female,45924_chihuahua_F_dog_80.wav,chihuahua,female,372.1,364.9,378.1,1004.8,1607.8
+chihuahua_female,46224_chihuahua_F_dog_80.wav,chihuahua,female,529.3,482.9,556.5,936.5,1686.8
+chihuahua_female,46645_chihuahua_F_dog_80.wav,chihuahua,female,0,0,0,1028.5,1630.2
+chihuahua_female,46777_chihuahua_F_dog_81.wav,chihuahua,female,420.2,413.1,426.2,1248.7,1822.3
+chihuahua_female,47405_chihuahua_F_dog_81.wav,chihuahua,female,152.0,75.0,263.5,857.0,1628.4
+chihuahua_female,47467_chihuahua_F_dog_81.wav,chihuahua,female,504.3,273.8,722.5,984.4,1751.8
+chihuahua_male,103_chihuahua_M_dog_2.wav,chihuahua,male,179.7,169.4,198.0,845.2,1864.5
+chihuahua_male,104_chihuahua_M_dog_2.wav,chihuahua,male,169.1,151.2,182.2,723.8,1637.4
+chihuahua_male,108_chihuahua_M_dog_2.wav,chihuahua,male,199.1,112.6,281.5,866.1,1793.4
+chihuahua_male,25507_chihuahua_M_dog_12.wav,chihuahua,male,256.9,239.1,290.5,577.5,1339.6
+chihuahua_male,25508_chihuahua_M_dog_12.wav,chihuahua,male,358.0,241.6,798.6,611.3,1179.0
+chihuahua_male,25511_chihuahua_M_dog_12.wav,chihuahua,male,208.8,188.0,218.7,775.8,1443.8
+chihuahua_male,30_chihuahua_M_dog_1.wav,chihuahua,male,573.3,378.4,821.9,1023.0,1716.1
+chihuahua_male,35858_chihuahua_M_dog_31.wav,chihuahua,male,623.0,469.1,823.0,1298.3,1955.4
+chihuahua_male,35862_chihuahua_M_dog_31.wav,chihuahua,male,526.0,350.1,799.1,1109.0,1656.6
+chihuahua_male,35865_chihuahua_M_dog_31.wav,chihuahua,male,592.7,352.4,846.0,907.1,1647.2
+chihuahua_male,37605_chihuahua_M_dog_41.wav,chihuahua,male,578.2,80.5,847.3,715.7,1590.4
+chihuahua_male,37606_chihuahua_M_dog_41.wav,chihuahua,male,686.2,645.3,726.8,852.3,1550.9
+chihuahua_male,37610_chihuahua_M_dog_41.wav,chihuahua,male,659.2,618.0,778.6,822.7,1588.1
+chihuahua_male,49021_chihuahua_M_dog_85.wav,chihuahua,male,692.6,645.8,759.4,694.3,1292.7
+chihuahua_male,49089_chihuahua_M_dog_85.wav,chihuahua,male,551.9,121.2,848.4,787.7,1444.6
+chihuahua_male,49138_chihuahua_M_dog_85.wav,chihuahua,male,0,0,0,932.4,1387.9
+chihuahua_male,50347_chihuahua_M_dog_94.wav,chihuahua,male,412.2,280.9,611.0,839.1,1746.5
+chihuahua_male,50348_chihuahua_M_dog_94.wav,chihuahua,male,514.6,394.4,580.9,970.6,1623.3
+chihuahua_male,50352_chihuahua_M_dog_94.wav,chihuahua,male,498.7,369.9,608.8,946.2,1832.5
+chihuahua_male,62_chihuahua_M_dog_1.wav,chihuahua,male,425.2,403.1,499.1,486.6,1432.0
+chihuahua_male,67686_chihuahua_M_dog_125.wav,chihuahua,male,183.9,80.3,230.6,580.9,1481.7
+chihuahua_male,67787_chihuahua_M_dog_125.wav,chihuahua,male,193.8,115.1,299.0,787.5,1581.5
+chihuahua_male,67_chihuahua_M_dog_1.wav,chihuahua,male,490.0,366.3,783.0,1033.1,1679.7
+chihuahua_male,68028_chihuahua_M_dog_125.wav,chihuahua,male,0,0,0,977.8,2076.4
+chihuahua_male,70104_chihuahua_M_dog_136.wav,chihuahua,male,241.4,137.5,405.5,802.8,1308.0
+chihuahua_male,70770_chihuahua_M_dog_136.wav,chihuahua,male,290.0,76.5,575.3,813.8,1264.2
+chihuahua_male,71634_chihuahua_M_dog_136.wav,chihuahua,male,538.2,199.9,745.0,1197.2,1794.0
+chihuahua_male,75073_chihuahua_M_dog_147.wav,chihuahua,male,536.4,402.3,721.6,929.7,1834.3
+chihuahua_male,75085_chihuahua_M_dog_147.wav,chihuahua,male,166.0,110.4,241.3,862.0,1903.4
+chihuahua_male,75105_chihuahua_M_dog_147.wav,chihuahua,male,350.7,76.0,571.8,981.6,2046.6
+german shepherd_female,39823_gsd_F_dog_57.wav,german shepherd,female,478.4,347.6,723.1,968.5,1587.5
+german shepherd_female,39824_gsd_F_dog_57.wav,german shepherd,female,535.9,463.6,704.9,979.4,1610.0
+german shepherd_female,39827_gsd_F_dog_57.wav,german shepherd,female,482.1,204.6,740.3,966.9,1535.6
+german shepherd_female,39848_gsd_F_dog_58.wav,german shepherd,female,383.7,129.2,721.6,777.0,1774.0
+german shepherd_female,39863_gsd_F_dog_58.wav,german shepherd,female,556.9,182.1,793.9,833.1,1561.2
+german shepherd_female,39865_gsd_F_dog_58.wav,german shepherd,female,586.8,529.6,667.7,631.5,1264.3
+german shepherd_female,39873_gsd_F_dog_59.wav,german shepherd,female,0,0,0,755.8,1197.3
+german shepherd_female,39882_gsd_F_dog_59.wav,german shepherd,female,533.2,94.1,597.7,1184.1,2124.1
+german shepherd_female,39886_gsd_F_dog_59.wav,german shepherd,female,418.1,87.0,618.4,995.1,1762.3
+german shepherd_female,39906_gsd_F_dog_60.wav,german shepherd,female,304.6,95.0,506.6,808.5,1671.4
+german shepherd_female,39921_gsd_F_dog_60.wav,german shepherd,female,315.1,313.3,316.4,1035.4,1819.4
+german shepherd_female,39923_gsd_F_dog_60.wav,german shepherd,female,665.4,664.7,666.3,679.4,1991.3
+german shepherd_female,39945_gsd_F_dog_61.wav,german shepherd,female,371.8,268.1,466.1,494.5,1183.9
+german shepherd_female,39968_gsd_F_dog_61.wav,german shepherd,female,573.9,518.6,626.4,680.7,1460.1
+german shepherd_female,40079_gsd_F_dog_61.wav,german shepherd,female,447.3,157.5,783.8,569.9,1462.7
+german shepherd_female,40199_gsd_F_dog_64.wav,german shepherd,female,430.6,413.0,446.7,790.5,1387.0
+german shepherd_female,40214_gsd_F_dog_64.wav,german shepherd,female,550.6,78.3,701.9,896.0,1974.7
+german shepherd_female,40216_gsd_F_dog_64.wav,german shepherd,female,550.4,75.6,788.7,883.6,1579.3
+german shepherd_female,40219_gsd_F_dog_65.wav,german shepherd,female,276.2,256.9,282.3,929.2,1873.8
+german shepherd_female,40228_gsd_F_dog_65.wav,german shepherd,female,528.6,168.9,633.0,690.4,1745.5
+german shepherd_female,40230_gsd_F_dog_65.wav,german shepherd,female,287.4,113.7,464.9,614.0,1645.1
+german shepherd_female,40241_gsd_F_dog_66.wav,german shepherd,female,479.9,362.1,827.2,812.8,1835.4
+german shepherd_female,40352_gsd_F_dog_66.wav,german shepherd,female,535.6,229.3,837.3,797.6,1681.3
+german shepherd_female,40416_gsd_F_dog_66.wav,german shepherd,female,733.4,709.4,747.1,1337.1,1955.8
+german shepherd_female,40796_gsd_F_dog_68.wav,german shepherd,female,336.1,84.7,437.0,536.0,1058.2
+german shepherd_female,40853_gsd_F_dog_68.wav,german shepherd,female,120.8,78.5,206.6,504.3,1242.8
+german shepherd_female,40857_gsd_F_dog_68.wav,german shepherd,female,668.6,583.9,732.2,683.5,1607.0
+german shepherd_female,40859_gsd_F_dog_69.wav,german shepherd,female,466.7,121.7,701.8,656.1,1446.7
+german shepherd_female,40860_gsd_F_dog_69.wav,german shepherd,female,377.4,86.8,462.2,1018.8,1775.0
+german shepherd_female,40864_gsd_F_dog_69.wav,german shepherd,female,556.9,143.7,780.1,929.3,1717.5
+german shepherd_male,36298_gsd_M_dog_36.wav,german shepherd,male,551.8,189.8,651.7,750.5,1530.6
+german shepherd_male,36356_gsd_M_dog_36.wav,german shepherd,male,413.3,331.3,704.2,927.1,1281.1
+german shepherd_male,36371_gsd_M_dog_36.wav,german shepherd,male,368.5,356.3,408.0,970.4,1611.8
+german shepherd_male,37428_gsd_M_dog_38.wav,german shepherd,male,361.3,189.0,787.9,828.3,1624.0
+german shepherd_male,37429_gsd_M_dog_38.wav,german shepherd,male,621.7,378.2,821.0,734.2,1938.1
+german shepherd_male,37441_gsd_M_dog_38.wav,german shepherd,male,433.7,215.3,505.6,515.8,1508.5
+german shepherd_male,37613_gsd_M_dog_42.wav,german shepherd,male,395.5,127.5,793.0,824.5,1564.5
+german shepherd_male,37614_gsd_M_dog_42.wav,german shepherd,male,364.6,345.1,380.6,1061.1,1739.0
+german shepherd_male,37616_gsd_M_dog_42.wav,german shepherd,male,646.7,451.0,818.2,1090.8,1809.2
+german shepherd_male,37663_gsd_M_dog_44.wav,german shepherd,male,0,0,0,806.5,1597.6
+german shepherd_male,37725_gsd_M_dog_44.wav,german shepherd,male,390.0,284.5,741.1,732.9,1803.9
+german shepherd_male,37775_gsd_M_dog_44.wav,german shepherd,male,346.6,84.1,526.3,679.3,1487.6
+german shepherd_male,37894_gsd_M_dog_47.wav,german shepherd,male,492.1,407.6,514.0,580.1,1517.2
+german shepherd_male,37923_gsd_M_dog_47.wav,german shepherd,male,189.6,91.3,218.4,352.1,1488.3
+german shepherd_male,37924_gsd_M_dog_47.wav,german shepherd,male,205.2,183.1,229.3,403.7,1298.5
+german shepherd_male,38159_gsd_M_dog_49.wav,german shepherd,male,498.1,112.3,551.0,845.9,1650.0
+german shepherd_male,38164_gsd_M_dog_49.wav,german shepherd,male,292.5,94.1,337.2,742.5,1377.4
+german shepherd_male,38193_gsd_M_dog_49.wav,german shepherd,male,532.5,425.5,620.2,545.0,1748.1
+german shepherd_male,38261_gsd_M_dog_51.wav,german shepherd,male,443.7,84.5,759.3,648.1,1376.6
+german shepherd_male,38270_gsd_M_dog_51.wav,german shepherd,male,464.9,75.7,689.8,695.2,1407.5
+german shepherd_male,38275_gsd_M_dog_51.wav,german shepherd,male,501.3,459.7,526.3,609.1,1570.3
+german shepherd_male,38450_gsd_M_dog_53.wav,german shepherd,male,546.3,421.3,667.1,572.2,1350.1
+german shepherd_male,38518_gsd_M_dog_53.wav,german shepherd,male,564.7,411.2,636.4,591.5,1392.2
+german shepherd_male,38528_gsd_M_dog_53.wav,german shepherd,male,333.3,76.8,601.2,728.9,1469.6
+german shepherd_male,38535_gsd_M_dog_54.wav,german shepherd,male,319.5,78.8,641.2,507.0,1190.4
+german shepherd_male,38540_gsd_M_dog_54.wav,german shepherd,male,143.4,125.5,159.8,619.5,1936.2
+german shepherd_male,38544_gsd_M_dog_54.wav,german shepherd,male,447.4,183.1,772.6,775.6,1602.7
+german shepherd_male,39786_gsd_M_dog_56.wav,german shepherd,male,612.7,537.7,647.2,1192.5,1563.5
+german shepherd_male,39797_gsd_M_dog_56.wav,german shepherd,male,545.2,456.7,577.2,1126.3,1768.2
+german shepherd_male,39799_gsd_M_dog_56.wav,german shepherd,male,439.2,228.1,734.5,751.1,1381.7
+husky_female,26230_husky_F_dog_14.wav,husky,female,462.9,246.4,785.9,718.3,1338.0
+husky_female,26840_husky_F_dog_14.wav,husky,female,347.0,147.5,797.9,764.0,1305.8
+husky_female,27564_husky_F_dog_14.wav,husky,female,451.3,124.9,796.9,827.9,1797.1
+husky_female,27603_husky_F_dog_15.wav,husky,female,505.0,76.5,725.0,672.8,1561.7
+husky_female,27643_husky_F_dog_15.wav,husky,female,212.4,87.4,745.1,654.2,1323.5
+husky_female,27646_husky_F_dog_15.wav,husky,female,314.2,190.3,701.3,942.3,1696.7
+husky_female,27940_husky_F_dog_18.wav,husky,female,437.4,388.9,498.9,754.3,1574.6
+husky_female,27941_husky_F_dog_18.wav,husky,female,552.2,445.5,666.0,1068.8,1876.0
+husky_female,27945_husky_F_dog_18.wav,husky,female,611.6,389.1,777.3,876.5,1786.2
+husky_female,27947_husky_F_dog_19.wav,husky,female,178.1,151.2,208.7,660.3,1529.0
+husky_female,27969_husky_F_dog_19.wav,husky,female,279.0,144.3,448.9,586.3,1546.8
+husky_female,27977_husky_F_dog_19.wav,husky,female,487.8,272.6,616.6,534.0,1255.7
+husky_female,29278_husky_F_dog_21.wav,husky,female,317.8,245.7,688.1,1111.3,2025.1
+husky_female,29932_husky_F_dog_21.wav,husky,female,391.4,88.4,555.6,523.9,1514.4
+husky_female,29992_husky_F_dog_21.wav,husky,female,662.6,592.5,784.2,699.2,1420.0
+husky_female,32591_husky_F_dog_25.wav,husky,female,544.7,240.7,842.6,789.6,1969.2
+husky_female,32597_husky_F_dog_25.wav,husky,female,484.4,102.9,838.1,861.4,1811.6
+husky_female,32664_husky_F_dog_25.wav,husky,female,636.4,365.4,836.0,860.1,1975.9
+husky_female,34945_husky_F_dog_27.wav,husky,female,527.5,138.2,855.0,690.1,1512.9
+husky_female,34960_husky_F_dog_27.wav,husky,female,508.3,435.5,651.1,660.5,1656.7
+husky_female,34962_husky_F_dog_27.wav,husky,female,539.3,426.3,703.2,810.3,1354.9
+husky_female,35896_husky_F_dog_32.wav,husky,female,408.3,117.2,545.1,812.4,1627.1
+husky_female,35911_husky_F_dog_32.wav,husky,female,210.8,74.0,672.1,899.6,1846.8
+husky_female,35976_husky_F_dog_32.wav,husky,female,404.4,286.3,753.9,874.3,1594.5
+husky_female,36181_husky_F_dog_34.wav,husky,female,639.1,513.6,756.9,642.9,1447.7
+husky_female,36201_husky_F_dog_34.wav,husky,female,115.0,114.8,115.2,512.1,2000.5
+husky_female,36219_husky_F_dog_34.wav,husky,female,403.9,366.8,458.3,804.0,1745.8
+husky_female,36283_husky_F_dog_35.wav,husky,female,576.1,234.6,718.3,1351.2,2179.3
+husky_female,36292_husky_F_dog_35.wav,husky,female,368.3,189.8,839.5,833.1,1514.4
+husky_female,36294_husky_F_dog_35.wav,husky,female,450.6,365.2,546.1,1121.5,2034.6
+husky_male,110_husky_M_dog_3.wav,husky,male,370.7,360.7,376.9,872.7,1839.0
+husky_male,1259_husky_M_dog_5.wav,husky,male,365.7,222.2,492.1,694.6,1326.7
+husky_male,132_husky_M_dog_3.wav,husky,male,95.5,69.0,150.4,493.0,1724.4
+husky_male,140_husky_M_dog_3.wav,husky,male,397.7,205.9,489.7,886.0,1671.7
+husky_male,1522_husky_M_dog_5.wav,husky,male,477.8,348.1,679.3,766.1,1614.8
+husky_male,16613_husky_M_dog_8.wav,husky,male,373.7,265.9,533.4,699.2,1525.5
+husky_male,16898_husky_M_dog_8.wav,husky,male,222.9,90.6,563.6,649.4,1317.4
+husky_male,192_husky_M_dog_4.wav,husky,male,462.1,391.3,599.3,469.0,1626.3
+husky_male,201_husky_M_dog_4.wav,husky,male,339.9,301.0,393.8,614.2,1658.6
+husky_male,203_husky_M_dog_4.wav,husky,male,97.5,92.9,101.2,624.2,2012.7
+husky_male,21307_husky_M_dog_8.wav,husky,male,306.4,152.3,537.3,564.3,1162.7
+husky_male,2278_husky_M_dog_6.wav,husky,male,336.4,111.9,662.9,529.8,1208.0
+husky_male,2305_husky_M_dog_6.wav,husky,male,231.0,80.4,548.8,587.4,1258.7
+husky_male,2307_husky_M_dog_6.wav,husky,male,261.1,97.0,431.6,553.3,1329.8
+husky_male,23597_husky_M_dog_9.wav,husky,male,601.9,423.6,758.4,662.0,1641.3
+husky_male,23933_husky_M_dog_9.wav,husky,male,428.5,261.7,632.3,638.1,1544.4
+husky_male,24273_husky_M_dog_9.wav,husky,male,629.1,549.4,795.1,1028.8,1479.7
+husky_male,24344_husky_M_dog_10.wav,husky,male,305.4,57.5,799.4,641.9,1635.6
+husky_male,24362_husky_M_dog_10.wav,husky,male,531.4,450.4,546.2,786.7,1330.2
+husky_male,24522_husky_M_dog_10.wav,husky,male,218.3,69.0,437.8,437.8,872.6
+husky_male,24756_husky_M_dog_11.wav,husky,male,323.4,76.6,734.9,736.3,1596.5
+husky_male,25359_husky_M_dog_11.wav,husky,male,537.1,421.6,589.2,951.9,1732.4
+husky_male,25388_husky_M_dog_11.wav,husky,male,426.1,382.8,491.3,840.6,1535.1
+husky_male,25533_husky_M_dog_13.wav,husky,male,242.0,160.1,321.3,719.8,1259.4
+husky_male,25534_husky_M_dog_13.wav,husky,male,360.5,309.4,500.8,696.0,1277.7
+husky_male,25536_husky_M_dog_13.wav,husky,male,400.9,185.2,530.5,582.6,1181.4
+husky_male,671_husky_M_dog_5.wav,husky,male,316.2,252.4,438.0,658.5,1279.5
+husky_male,77198_husky_M_dog_156.wav,husky,male,387.8,287.3,445.2,520.2,1550.9
+husky_male,77199_husky_M_dog_156.wav,husky,male,493.4,168.6,798.0,726.0,1573.1
+husky_male,77201_husky_M_dog_156.wav,husky,male,527.6,466.2,611.6,965.1,1603.3
+pitbull_female,72701_pitbull_F_dog_140.wav,pitbull,female,311.0,301.4,319.4,1224.1,2000.1
+pitbull_female,72706_pitbull_F_dog_140.wav,pitbull,female,608.8,433.1,814.5,1004.3,2030.9
+pitbull_female,72737_pitbull_F_dog_140.wav,pitbull,female,234.9,150.1,381.3,843.8,1444.6
+pitbull_female,72870_pitbull_F_dog_141.wav,pitbull,female,507.1,190.2,797.0,814.1,1380.3
+pitbull_female,73026_pitbull_F_dog_141.wav,pitbull,female,414.8,300.5,573.5,960.3,2037.4
+pitbull_female,73701_pitbull_F_dog_141.wav,pitbull,female,538.7,224.3,739.5,660.0,1582.8
+pitbull_female,74003_pitbull_F_dog_143.wav,pitbull,female,509.5,367.5,614.4,601.3,1336.8
+pitbull_female,74201_pitbull_F_dog_145.wav,pitbull,female,378.9,355.1,417.1,379.2,1600.3
+pitbull_female,74215_pitbull_F_dog_145.wav,pitbull,female,131.5,75.3,208.3,837.5,2465.2
+pitbull_female,74259_pitbull_F_dog_145.wav,pitbull,female,279.9,147.8,478.6,428.4,1620.2
+pitbull_female,75224_pitbull_F_dog_149.wav,pitbull,female,575.0,507.6,658.2,666.2,1666.7
+pitbull_female,75246_pitbull_F_dog_149.wav,pitbull,female,252.3,75.0,681.7,757.2,1525.7
+pitbull_female,75264_pitbull_F_dog_149.wav,pitbull,female,451.9,413.6,503.2,666.4,1344.0
+pitbull_female,75664_pitbull_F_dog_150.wav,pitbull,female,431.6,159.1,648.2,944.7,1627.5
+pitbull_female,75673_pitbull_F_dog_150.wav,pitbull,female,363.4,321.1,461.1,503.2,1434.4
+pitbull_female,75674_pitbull_F_dog_150.wav,pitbull,female,460.9,213.6,810.1,919.1,1836.4
+pitbull_female,75815_pitbull_F_dog_151.wav,pitbull,female,440.8,209.7,622.4,782.8,1714.4
+pitbull_female,76116_pitbull_F_dog_151.wav,pitbull,female,342.2,76.7,452.4,425.1,1348.4
+pitbull_female,76464_pitbull_F_dog_151.wav,pitbull,female,299.2,79.5,690.3,654.1,1814.0
+pitbull_female,76801_pitbull_F_dog_152.wav,pitbull,female,390.2,235.6,521.4,778.1,1457.8
+pitbull_female,76831_pitbull_F_dog_152.wav,pitbull,female,359.0,197.5,522.5,588.4,1380.1
+pitbull_female,76936_pitbull_F_dog_152.wav,pitbull,female,333.3,252.9,544.3,708.1,1524.7
+pitbull_female,77079_pitbull_F_dog_153.wav,pitbull,female,421.7,222.4,624.7,811.2,1565.0
+pitbull_female,77084_pitbull_F_dog_153.wav,pitbull,female,637.7,591.9,706.9,742.6,1606.5
+pitbull_female,77113_pitbull_F_dog_153.wav,pitbull,female,528.9,166.5,734.6,1078.0,1777.9
+pitbull_female,77153_pitbull_F_dog_154.wav,pitbull,female,355.2,178.8,473.3,655.4,1226.9
+pitbull_female,77157_pitbull_F_dog_154.wav,pitbull,female,365.1,142.8,460.3,511.5,1032.6
+pitbull_female,77165_pitbull_F_dog_154.wav,pitbull,female,232.1,80.3,434.7,512.2,1561.1
+pitbull_male,68067_pitbull_M_dog_127.wav,pitbull,male,448.7,288.2,820.6,823.1,1840.7
+pitbull_male,68075_pitbull_M_dog_127.wav,pitbull,male,423.6,91.5,648.0,694.3,1532.3
+pitbull_male,68079_pitbull_M_dog_127.wav,pitbull,male,742.0,626.9,783.1,1082.2,1611.3
+pitbull_male,68087_pitbull_M_dog_128.wav,pitbull,male,645.1,144.8,769.1,677.7,1947.6
+pitbull_male,68093_pitbull_M_dog_128.wav,pitbull,male,91.2,76.9,101.6,607.8,2258.8
+pitbull_male,68183_pitbull_M_dog_128.wav,pitbull,male,0,0,0,973.4,1935.5
+pitbull_male,68193_pitbull_M_dog_129.wav,pitbull,male,221.4,218.2,224.1,802.2,2034.4
+pitbull_male,68229_pitbull_M_dog_129.wav,pitbull,male,342.3,166.1,548.2,1096.5,1645.1
+pitbull_male,68254_pitbull_M_dog_129.wav,pitbull,male,342.7,90.5,508.1,924.8,1683.8
+pitbull_male,68358_pitbull_M_dog_131.wav,pitbull,male,305.9,74.8,795.3,886.6,1811.4
+pitbull_male,68363_pitbull_M_dog_131.wav,pitbull,male,592.7,533.3,636.0,893.9,1868.5
+pitbull_male,68392_pitbull_M_dog_131.wav,pitbull,male,330.6,76.6,767.4,850.0,1612.8
+pitbull_male,68423_pitbull_M_dog_132.wav,pitbull,male,353.9,122.2,819.0,925.4,1490.8
+pitbull_male,68514_pitbull_M_dog_132.wav,pitbull,male,452.8,139.4,574.1,982.9,1810.7
+pitbull_male,68559_pitbull_M_dog_132.wav,pitbull,male,0,0,0,1034.6,1691.5
+pitbull_male,68667_pitbull_M_dog_133.wav,pitbull,male,518.8,462.3,571.7,725.9,1574.5
+pitbull_male,68682_pitbull_M_dog_133.wav,pitbull,male,447.9,166.1,618.0,615.6,1473.4
+pitbull_male,68684_pitbull_M_dog_133.wav,pitbull,male,146.6,94.2,223.4,531.6,1748.4
+pitbull_male,68688_pitbull_M_dog_134.wav,pitbull,male,99.2,99.2,99.2,805.7,1752.6
+pitbull_male,68710_pitbull_M_dog_134.wav,pitbull,male,270.2,75.0,765.0,669.0,1745.9
+pitbull_male,68718_pitbull_M_dog_134.wav,pitbull,male,90.4,75.7,109.7,611.7,1810.5
+pitbull_male,68809_pitbull_M_dog_135.wav,pitbull,male,0,0,0,806.9,1657.9
+pitbull_male,69122_pitbull_M_dog_135.wav,pitbull,male,89.4,82.7,97.7,272.4,1916.9
+pitbull_male,69131_pitbull_M_dog_135.wav,pitbull,male,193.5,107.1,274.3,576.4,1895.8
+pitbull_male,72650_pitbull_M_dog_138.wav,pitbull,male,604.3,176.2,800.0,914.6,1685.1
+pitbull_male,72661_pitbull_M_dog_138.wav,pitbull,male,578.2,343.6,738.5,1085.6,1668.4
+pitbull_male,72663_pitbull_M_dog_138.wav,pitbull,male,524.8,413.4,739.4,1135.3,2152.2
+pitbull_male,72684_pitbull_M_dog_139.wav,pitbull,male,387.3,77.5,754.9,764.1,1949.9
+pitbull_male,72688_pitbull_M_dog_139.wav,pitbull,male,186.1,80.4,656.9,608.0,1643.0
+pitbull_male,72699_pitbull_M_dog_139.wav,pitbull,male,410.0,314.2,483.0,796.8,1555.5
+shiba inu_female,55579_shibainu_F_dog_107.wav,shiba inu,female,329.6,88.7,451.7,876.2,1777.3
+shiba inu_female,56004_shibainu_F_dog_107.wav,shiba inu,female,238.3,234.3,242.0,1000.0,1786.4
+shiba inu_female,56631_shibainu_F_dog_107.wav,shiba inu,female,624.2,364.3,808.9,810.4,2068.0
+shiba inu_female,57333_shibainu_F_dog_108.wav,shiba inu,female,325.2,80.3,795.2,850.3,1723.3
+shiba inu_female,57454_shibainu_F_dog_108.wav,shiba inu,female,523.8,213.9,813.8,900.4,1861.5
+shiba inu_female,59040_shibainu_F_dog_108.wav,shiba inu,female,511.2,414.1,670.8,738.2,1642.9
+shiba inu_female,59190_shibainu_F_dog_109.wav,shiba inu,female,753.7,652.7,790.9,755.9,1961.0
+shiba inu_female,59342_shibainu_F_dog_109.wav,shiba inu,female,145.5,133.8,172.3,639.8,1598.5
+shiba inu_female,59579_shibainu_F_dog_109.wav,shiba inu,female,571.4,216.6,833.4,1088.4,1996.4
+shiba inu_female,60048_shibainu_F_dog_110.wav,shiba inu,female,672.2,299.1,764.5,865.7,1685.1
+shiba inu_female,60228_shibainu_F_dog_110.wav,shiba inu,female,570.1,570.1,570.1,1276.6,2101.6
+shiba inu_female,60264_shibainu_F_dog_110.wav,shiba inu,female,416.8,400.8,433.5,907.1,1796.2
+shiba inu_female,60977_shibainu_F_dog_111.wav,shiba inu,female,518.1,456.7,653.0,1115.9,1880.5
+shiba inu_female,61840_shibainu_F_dog_111.wav,shiba inu,female,424.9,192.9,826.5,993.3,2055.1
+shiba inu_female,61926_shibainu_F_dog_111.wav,shiba inu,female,624.2,466.9,721.6,1159.7,2175.0
+shiba inu_female,64583_shibainu_F_dog_116.wav,shiba inu,female,568.9,77.4,837.6,810.4,1494.1
+shiba inu_female,64715_shibainu_F_dog_116.wav,shiba inu,female,457.5,178.2,679.4,740.2,1350.6
+shiba inu_female,64951_shibainu_F_dog_116.wav,shiba inu,female,468.2,358.7,827.6,639.9,1441.1
+shiba inu_female,65397_shibainu_F_dog_117.wav,shiba inu,female,540.5,509.0,639.2,1002.7,1660.7
+shiba inu_female,65398_shibainu_F_dog_117.wav,shiba inu,female,160.7,67.5,355.1,537.0,1370.4
+shiba inu_female,65411_shibainu_F_dog_117.wav,shiba inu,female,415.5,359.0,662.5,569.4,1374.7
+shiba inu_female,65617_shibainu_F_dog_118.wav,shiba inu,female,387.8,167.4,567.7,972.2,1463.1
+shiba inu_female,65838_shibainu_F_dog_118.wav,shiba inu,female,495.7,445.6,532.0,1035.7,1524.2
+shiba inu_female,66112_shibainu_F_dog_118.wav,shiba inu,female,448.5,75.0,487.1,898.5,1927.9
+shiba inu_female,66387_shibainu_F_dog_120.wav,shiba inu,female,655.2,507.9,797.4,807.4,1321.9
+shiba inu_female,66405_shibainu_F_dog_120.wav,shiba inu,female,719.5,394.9,804.0,829.9,1625.2
+shiba inu_female,66474_shibainu_F_dog_120.wav,shiba inu,female,196.6,126.4,489.9,949.2,1660.5
+shiba inu_female,67118_shibainu_F_dog_123.wav,shiba inu,female,428.0,114.2,737.8,738.4,1386.9
+shiba inu_female,67133_shibainu_F_dog_123.wav,shiba inu,female,490.7,471.2,513.3,945.2,1922.5
+shiba inu_female,67135_shibainu_F_dog_123.wav,shiba inu,female,452.9,411.3,784.3,1066.1,2355.2
+shiba inu_male,47808_shibainu_M_dog_82.wav,shiba inu,male,165.2,75.8,353.0,523.8,1490.0
+shiba inu_male,47809_shibainu_M_dog_82.wav,shiba inu,male,500.8,100.3,759.8,1160.2,2075.4
+shiba inu_male,47813_shibainu_M_dog_82.wav,shiba inu,male,540.6,209.1,665.5,710.8,1404.5
+shiba inu_male,48897_shibainu_M_dog_84.wav,shiba inu,male,605.7,75.1,830.4,855.2,1754.0
+shiba inu_male,48906_shibainu_M_dog_84.wav,shiba inu,male,115.4,95.6,139.8,1010.3,1826.2
+shiba inu_male,48908_shibainu_M_dog_84.wav,shiba inu,male,135.4,87.8,710.2,528.2,1098.2
+shiba inu_male,49596_shibainu_M_dog_88.wav,shiba inu,male,582.5,122.9,848.1,811.5,1825.7
+shiba inu_male,49597_shibainu_M_dog_88.wav,shiba inu,male,477.5,432.1,512.8,511.9,1315.9
+shiba inu_male,49599_shibainu_M_dog_88.wav,shiba inu,male,521.7,439.0,634.9,597.4,1503.1
+shiba inu_male,50139_shibainu_M_dog_92.wav,shiba inu,male,559.1,529.5,584.8,1078.0,1707.7
+shiba inu_male,50140_shibainu_M_dog_92.wav,shiba inu,male,564.2,497.1,650.8,1471.9,1953.9
+shiba inu_male,50153_shibainu_M_dog_92.wav,shiba inu,male,423.3,392.5,444.6,951.2,1737.6
+shiba inu_male,50177_shibainu_M_dog_93.wav,shiba inu,male,660.8,353.0,840.9,907.5,1591.9
+shiba inu_male,50321_shibainu_M_dog_93.wav,shiba inu,male,427.1,267.4,547.5,990.5,1583.7
+shiba inu_male,50342_shibainu_M_dog_93.wav,shiba inu,male,540.2,78.5,784.9,1046.1,1843.4
+shiba inu_male,51279_shibainu_M_dog_96.wav,shiba inu,male,454.3,72.7,603.9,677.7,1501.0
+shiba inu_male,51284_shibainu_M_dog_96.wav,shiba inu,male,511.1,75.2,793.8,989.1,2130.7
+shiba inu_male,51288_shibainu_M_dog_96.wav,shiba inu,male,365.1,162.5,696.1,513.7,1245.2
+shiba inu_male,54571_shibainu_M_dog_100.wav,shiba inu,male,297.1,250.4,321.7,808.6,1864.7
+shiba inu_male,54628_shibainu_M_dog_100.wav,shiba inu,male,260.1,219.4,283.3,520.5,1651.2
+shiba inu_male,54632_shibainu_M_dog_100.wav,shiba inu,male,368.9,143.5,501.8,597.4,1174.0
+shiba inu_male,54664_shibainu_M_dog_102.wav,shiba inu,male,535.8,473.4,596.3,1077.4,1902.9
+shiba inu_male,54665_shibainu_M_dog_102.wav,shiba inu,male,571.8,297.2,822.5,796.5,1529.3
+shiba inu_male,54677_shibainu_M_dog_102.wav,shiba inu,male,475.8,318.5,819.3,909.3,1645.0
+shiba inu_male,54706_shibainu_M_dog_103.wav,shiba inu,male,527.6,359.0,827.6,963.1,1794.6
+shiba inu_male,54752_shibainu_M_dog_103.wav,shiba inu,male,663.4,110.0,804.4,1364.2,2413.2
+shiba inu_male,54756_shibainu_M_dog_103.wav,shiba inu,male,623.5,350.9,849.0,816.5,1598.9
+shiba inu_male,54830_shibainu_M_dog_105.wav,shiba inu,male,555.3,448.7,772.9,1216.4,1846.1
+shiba inu_male,54836_shibainu_M_dog_105.wav,shiba inu,male,558.7,163.8,837.8,930.7,1662.8
+shiba inu_male,54902_shibainu_M_dog_105.wav,shiba inu,male,584.3,502.5,699.6,666.5,1566.9

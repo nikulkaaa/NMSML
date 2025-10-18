@@ -1,6 +1,6 @@
 # Statistical Analysis Report: Vocal Dimorphism in Dog Breeds
 
-**Analysis Date:** 2025-10-13 18:23:50
+**Analysis Date:** 2025-10-18 17:40:33
 
 **Research Question:** Are there differences in the way vocal dimorphism is modulated in different dog breeds?
 
@@ -20,12 +20,12 @@
 ### Missing Values
 - No missing values found
 
-**Zero values in F0_mean:** 12
-**Samples after removing F0=0:** 286
+**Zero values in F0_mean:** 10
+**Samples after removing F0=0:** 288
 
 ### Breed Size Distribution
-- large: 117
-- medium: 59
+- large: 118
+- medium: 60
 - small: 55
 - medium-large: 55
 
@@ -36,19 +36,19 @@
 ### Summary Statistics by Breed and Sex
 
 ```
-                       F0_mean                 F1_mean          F2_mean        
-                         count    mean     std    mean     std     mean     std
-Breed           Sex                                                            
-chihuahua       female      27  348.95   83.87  987.85  173.80  1681.12  176.80
-                male        28  302.99   86.68  851.46  184.07  1615.26  223.21
-german shepherd female      29  309.99   79.97  796.62  176.47  1606.01  258.05
-                male        28  303.16   73.58  725.37  201.36  1542.06  188.90
-husky           female      30  303.45   87.96  797.24  189.03  1660.75  250.55
-                male        30  305.07   80.55  686.52  150.12  1478.98  238.72
-pitbull         female      28  316.67   75.26  730.62  204.99  1605.10  290.52
-                male        27  253.12  119.03  791.11  201.00  1767.42  195.17
-shiba inu       female      29  341.20   85.49  870.47  160.14  1720.21  269.94
-                male        30  320.53   90.95  866.74  254.61  1674.59  283.30
+                       F0_mean                  F0_min          F0_max         F1_mean          F2_mean        
+                         count    mean     std    mean     std    mean     std    mean     std     mean     std
+Breed           Sex                                                                                            
+chihuahua       female      27  466.17  108.72  315.72  159.32  608.34  154.04  987.85  173.80  1681.12  176.80
+                male        28  417.71  179.26  277.69  175.83  574.75  241.20  851.46  184.07  1615.26  223.21
+german shepherd female      29  467.32  134.73  260.74  192.86  620.08  170.85  816.66  202.73  1632.17  253.54
+                male        29  429.84  127.68  255.35  149.54  586.91  184.19  737.97  209.05  1551.27  192.02
+husky           female      30  434.26  141.99  252.08  144.96  664.26  179.74  797.24  189.03  1660.75  250.55
+                male        30  368.93  131.42  243.70  142.33  533.01  169.02  686.52  150.12  1478.98  238.72
+pitbull         female      28  398.41  121.13  238.21  134.29  567.64  152.51  730.62  204.99  1605.10  290.52
+                male        27  364.43  185.37  193.22  156.62  552.83  256.40  791.11  201.00  1767.42  195.17
+shiba inu       female      30  471.18  154.90  301.63  170.67  642.10  183.78  884.00  173.95  1732.93  274.24
+                male        30  472.41  148.17  256.78  156.44  651.27  191.64  866.74  254.61  1674.59  283.30
 ```
 
 ---
@@ -59,16 +59,46 @@ shiba inu       female      29  341.20   85.49  870.47  160.14  1720.21  269.94
 
 | Breed | Sex | W-statistic | p-value |
 |-------|-----|-------------|---------|
-| chihuahua | female | 0.849 | 0.001 |
-| chihuahua | male | 0.928 | 0.056 |
-| german shepherd | female | 0.932 | 0.063 |
-| german shepherd | male | 0.967 | 0.513 |
-| husky | female | 0.930 | 0.049 |
-| husky | male | 0.917 | 0.022 |
-| pitbull | female | 0.957 | 0.296 |
-| pitbull | male | 0.912 | 0.026 |
-| shiba inu | female | 0.953 | 0.217 |
-| shiba inu | male | 0.925 | 0.037 |
+| chihuahua | female | 0.907 | 0.019 |
+| chihuahua | male | 0.906 | 0.016 |
+| german shepherd | female | 0.975 | 0.702 |
+| german shepherd | male | 0.974 | 0.667 |
+| husky | female | 0.969 | 0.521 |
+| husky | male | 0.982 | 0.869 |
+| pitbull | female | 0.989 | 0.991 |
+| pitbull | male | 0.963 | 0.422 |
+| shiba inu | female | 0.967 | 0.471 |
+| shiba inu | male | 0.874 | 0.002 |
+
+### Normality Test for F0_min
+
+| Breed | Sex | W-statistic | p-value |
+|-------|-----|-------------|---------|
+| chihuahua | female | 0.926 | 0.054 |
+| chihuahua | male | 0.897 | 0.010 |
+| german shepherd | female | 0.856 | 0.001 |
+| german shepherd | male | 0.895 | 0.008 |
+| husky | female | 0.922 | 0.030 |
+| husky | male | 0.937 | 0.075 |
+| pitbull | female | 0.921 | 0.036 |
+| pitbull | male | 0.767 | 0.000 |
+| shiba inu | female | 0.934 | 0.064 |
+| shiba inu | male | 0.897 | 0.007 |
+
+### Normality Test for F0_max
+
+| Breed | Sex | W-statistic | p-value |
+|-------|-----|-------------|---------|
+| chihuahua | female | 0.956 | 0.299 |
+| chihuahua | male | 0.862 | 0.002 |
+| german shepherd | female | 0.907 | 0.014 |
+| german shepherd | male | 0.919 | 0.028 |
+| husky | female | 0.846 | 0.001 |
+| husky | male | 0.951 | 0.181 |
+| pitbull | female | 0.975 | 0.706 |
+| pitbull | male | 0.837 | 0.001 |
+| shiba inu | female | 0.888 | 0.004 |
+| shiba inu | male | 0.883 | 0.003 |
 
 ### Normality Test for F1_mean
 
@@ -76,13 +106,13 @@ shiba inu       female      29  341.20   85.49  870.47  160.14  1720.21  269.94
 |-------|-----|-------------|---------|
 | chihuahua | female | 0.935 | 0.094 |
 | chihuahua | male | 0.981 | 0.863 |
-| german shepherd | female | 0.976 | 0.718 |
-| german shepherd | male | 0.968 | 0.534 |
+| german shepherd | female | 0.968 | 0.519 |
+| german shepherd | male | 0.966 | 0.463 |
 | husky | female | 0.937 | 0.076 |
 | husky | male | 0.965 | 0.409 |
 | pitbull | female | 0.981 | 0.866 |
 | pitbull | male | 0.969 | 0.574 |
-| shiba inu | female | 0.981 | 0.873 |
+| shiba inu | female | 0.991 | 0.996 |
 | shiba inu | male | 0.955 | 0.230 |
 
 ### Normality Test for F2_mean
@@ -91,22 +121,24 @@ shiba inu       female      29  341.20   85.49  870.47  160.14  1720.21  269.94
 |-------|-----|-------------|---------|
 | chihuahua | female | 0.887 | 0.007 |
 | chihuahua | male | 0.983 | 0.908 |
-| german shepherd | female | 0.982 | 0.881 |
-| german shepherd | male | 0.972 | 0.638 |
+| german shepherd | female | 0.984 | 0.930 |
+| german shepherd | male | 0.974 | 0.660 |
 | husky | female | 0.963 | 0.379 |
 | husky | male | 0.964 | 0.400 |
 | pitbull | female | 0.946 | 0.155 |
 | pitbull | male | 0.961 | 0.386 |
-| shiba inu | female | 0.966 | 0.458 |
+| shiba inu | female | 0.967 | 0.455 |
 | shiba inu | male | 0.982 | 0.884 |
 
 ### Homogeneity of Variance Tests (Levene's Test)
 
 | Feature | Levene Statistic | p-value |
 |---------|------------------|---------|
-| F0_mean | 1.939 | 0.047 |
-| F1_mean | 1.319 | 0.227 |
-| F2_mean | 1.161 | 0.320 |
+| F0_mean | 1.996 | 0.040 |
+| F0_min | 0.910 | 0.517 |
+| F0_max | 1.693 | 0.090 |
+| F1_mean | 1.241 | 0.270 |
+| F2_mean | 1.196 | 0.297 |
 
 ---
 
@@ -121,44 +153,136 @@ shiba inu       female      29  341.20   85.49  870.47  160.14  1720.21  269.94
                        Mixed Linear Model Regression Results
 ====================================================================================
 Model:                      MixedLM          Dependent Variable:          F0_mean   
-No. Observations:           286              Method:                      REML      
-No. Groups:                 100              Scale:                       6024.6667 
-Min. group size:            1                Log-Likelihood:              -1635.4795
+No. Observations:           288              Method:                      REML      
+No. Groups:                 100              Scale:                       17768.5190
+Min. group size:            1                Log-Likelihood:              -1791.6282
 Max. group size:            3                Converged:                   Yes       
 Mean group size:            2.9                                                     
 ------------------------------------------------------------------------------------
                                       Coef.   Std.Err.   z    P>|z|  [0.025   0.975]
 ------------------------------------------------------------------------------------
-Intercept                             349.004   19.792 17.633 0.000  310.212 387.796
-Sex[T.male]                           -46.953   27.834 -1.687 0.092 -101.507   7.600
-Breed[T.german shepherd]              -38.341   27.682 -1.385 0.166  -92.596  15.913
-Breed[T.husky]                        -45.550   27.535 -1.654 0.098  -99.518   8.418
-Breed[T.pitbull]                      -30.780   27.904 -1.103 0.270  -85.471  23.911
-Breed[T.shiba inu]                     -7.238   27.681 -0.261 0.794  -61.493  47.016
-Sex[T.male]:Breed[T.german shepherd]   39.768   39.142  1.016 0.310  -36.949 116.486
-Sex[T.male]:Breed[T.husky]             48.573   38.828  1.251 0.211  -27.529 124.675
-Sex[T.male]:Breed[T.pitbull]          -18.468   39.410 -0.469 0.639  -95.711  58.775
-Sex[T.male]:Breed[T.shiba inu]         25.722   38.931  0.661 0.509  -50.582 102.025
-Group Var                            1656.332    8.767                              
+Intercept                             466.806   31.888 14.639 0.000  404.307 529.306
+Sex[T.male]                           -49.340   44.813 -1.101 0.271 -137.172  38.491
+Breed[T.german shepherd]                0.599   44.541  0.013 0.989  -86.700  87.897
+Breed[T.husky]                        -32.546   44.281 -0.735 0.462 -119.335  54.243
+Breed[T.pitbull]                      -67.096   44.905 -1.494 0.135 -155.109  20.917
+Breed[T.shiba inu]                      4.374   44.281  0.099 0.921  -82.415  91.163
+Sex[T.male]:Breed[T.german shepherd]   11.178   62.787  0.178 0.859 -111.883 134.238
+Sex[T.male]:Breed[T.husky]            -15.986   62.419 -0.256 0.798 -138.325 106.352
+Sex[T.male]:Breed[T.pitbull]           12.224   63.445  0.193 0.847 -112.126 136.573
+Sex[T.male]:Breed[T.shiba inu]         50.570   62.419  0.810 0.418  -71.768 172.909
+Group Var                            3516.713   13.260                              
 ====================================================================================
 
 ```
 
 #### Key Results
 
-**Sex effect (male vs female):** -46.953 (p=0.092)
+**Sex effect (male vs female):** -49.340 (p=0.271)
 
 **Breed Effects (vs reference breed):**
-- german shepherd: -38.341 (p=0.166)
-- husky: -45.550 (p=0.098)
-- pitbull: -30.780 (p=0.270)
-- shiba inu: -7.238 (p=0.794)
+- german shepherd: 0.599 (p=0.989)
+- husky: -32.546 (p=0.462)
+- pitbull: -67.096 (p=0.135)
+- shiba inu: 4.374 (p=0.921)
 
 **Interaction Effects (Sex × Breed):**
-- Male × german shepherd: 39.768 (p=0.310)
-- Male × husky: 48.573 (p=0.211)
-- Male × pitbull: -18.468 (p=0.639)
-- Male × shiba inu: 25.722 (p=0.509)
+- Male × german shepherd: 11.178 (p=0.859)
+- Male × husky: -15.986 (p=0.798)
+- Male × pitbull: 12.224 (p=0.847)
+- Male × shiba inu: 50.570 (p=0.418)
+
+### Model Results: F0_min
+
+#### Full Model Summary
+```
+                       Mixed Linear Model Regression Results
+===================================================================================
+Model:                     MixedLM          Dependent Variable:          F0_min    
+No. Observations:          288              Method:                      REML      
+No. Groups:                100              Scale:                       24572.8657
+Min. group size:           1                Log-Likelihood:              -1820.4948
+Max. group size:           3                Converged:                   Yes       
+Mean group size:           2.9                                                     
+-----------------------------------------------------------------------------------
+                                      Coef.  Std.Err.   z    P>|z|  [0.025   0.975]
+-----------------------------------------------------------------------------------
+Intercept                            316.272   31.519 10.034 0.000  254.496 378.048
+Sex[T.male]                          -38.744   44.197 -0.877 0.381 -125.368  47.881
+Breed[T.german shepherd]             -55.888   43.859 -1.274 0.203 -141.851  30.074
+Breed[T.husky]                       -64.188   43.504 -1.475 0.140 -149.454  21.077
+Breed[T.pitbull]                     -77.770   44.201 -1.759 0.078 -164.402   8.861
+Breed[T.shiba inu]                   -14.642   43.504 -0.337 0.736  -99.907  70.624
+Sex[T.male]:Breed[T.german shepherd]  33.559   61.734  0.544 0.587  -87.437 154.555
+Sex[T.male]:Breed[T.husky]            30.360   61.251  0.496 0.620  -89.689 150.409
+Sex[T.male]:Breed[T.pitbull]          -7.082   62.490 -0.113 0.910 -129.560 115.395
+Sex[T.male]:Breed[T.shiba inu]        -6.106   61.251 -0.100 0.921 -126.155 113.943
+Group Var                            800.263   10.751                              
+===================================================================================
+
+```
+
+#### Key Results
+
+**Sex effect (male vs female):** -38.744 (p=0.381)
+
+**Breed Effects (vs reference breed):**
+- german shepherd: -55.888 (p=0.203)
+- husky: -64.188 (p=0.140)
+- pitbull: -77.770 (p=0.078)
+- shiba inu: -14.642 (p=0.736)
+
+**Interaction Effects (Sex × Breed):**
+- Male × german shepherd: 33.559 (p=0.587)
+- Male × husky: 30.360 (p=0.620)
+- Male × pitbull: -7.082 (p=0.910)
+- Male × shiba inu: -6.106 (p=0.921)
+
+### Model Results: F0_max
+
+#### Full Model Summary
+```
+                       Mixed Linear Model Regression Results
+====================================================================================
+Model:                      MixedLM          Dependent Variable:          F0_max    
+No. Observations:           288              Method:                      REML      
+No. Groups:                 100              Scale:                       27133.5757
+Min. group size:            1                Log-Likelihood:              -1862.6234
+Max. group size:            3                Converged:                   Yes       
+Mean group size:            2.9                                                     
+------------------------------------------------------------------------------------
+                                      Coef.   Std.Err.   z    P>|z|  [0.025   0.975]
+------------------------------------------------------------------------------------
+Intercept                             608.683   44.934 13.546 0.000  520.615 696.751
+Sex[T.male]                           -35.124   63.228 -0.556 0.579 -159.049  88.802
+Breed[T.german shepherd]               11.220   62.921  0.178 0.858 -112.103 134.542
+Breed[T.husky]                         55.577   62.624  0.887 0.375  -67.164 178.318
+Breed[T.pitbull]                      -40.162   63.398 -0.633 0.526 -164.419  84.095
+Breed[T.shiba inu]                     33.420   62.624  0.534 0.594  -89.320 156.161
+Sex[T.male]:Breed[T.german shepherd]    2.802   88.758  0.032 0.975 -171.159 176.764
+Sex[T.male]:Breed[T.husky]            -96.126   88.336 -1.088 0.277 -269.262  77.009
+Sex[T.male]:Breed[T.pitbull]           14.322   89.542  0.160 0.873 -161.177 189.822
+Sex[T.male]:Breed[T.shiba inu]         44.287   88.336  0.501 0.616 -128.848 217.423
+Group Var                            9982.635   21.703                              
+====================================================================================
+
+```
+
+#### Key Results
+
+**Sex effect (male vs female):** -35.124 (p=0.579)
+
+**Breed Effects (vs reference breed):**
+- german shepherd: 11.220 (p=0.858)
+- husky: 55.577 (p=0.375)
+- pitbull: -40.162 (p=0.526)
+- shiba inu: 33.420 (p=0.594)
+
+**Interaction Effects (Sex × Breed):**
+- Male × german shepherd: 2.802 (p=0.975)
+- Male × husky: -96.126 (p=0.277)
+- Male × pitbull: 14.322 (p=0.873)
+- Male × shiba inu: 44.287 (p=0.616)
 
 ### Model Results: F1_mean
 
@@ -167,90 +291,90 @@ Group Var                            1656.332    8.767
                         Mixed Linear Model Regression Results
 ======================================================================================
 Model:                      MixedLM           Dependent Variable:           F1_mean   
-No. Observations:           286               Method:                       REML      
-No. Groups:                 100               Scale:                        25560.8798
-Min. group size:            1                 Log-Likelihood:               -1847.0124
+No. Observations:           288               Method:                       REML      
+No. Groups:                 100               Scale:                        26566.6002
+Min. group size:            1                 Log-Likelihood:               -1866.4380
 Max. group size:            3                 Converged:                    Yes       
 Mean group size:            2.9                                                       
 --------------------------------------------------------------------------------------
                                        Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
 --------------------------------------------------------------------------------------
-Intercept                              986.899   46.497 21.225 0.000  895.766 1078.033
-Sex[T.male]                           -140.078   65.466 -2.140 0.032 -268.389  -11.767
-Breed[T.german shepherd]              -190.141   65.179 -2.917 0.004 -317.890  -62.392
-Breed[T.husky]                        -189.659   64.903 -2.922 0.003 -316.867  -62.451
-Breed[T.pitbull]                      -259.164   65.651 -3.948 0.000 -387.839 -130.490
-Breed[T.shiba inu]                    -116.172   65.179 -1.782 0.075 -243.921   11.577
-Sex[T.male]:Breed[T.german shepherd]    72.002   92.176  0.781 0.435 -108.660  252.663
-Sex[T.male]:Breed[T.husky]              29.355   91.579  0.321 0.749 -150.136  208.846
-Sex[T.male]:Breed[T.pitbull]           197.470   92.712  2.130 0.033   15.758  379.181
-Sex[T.male]:Breed[T.shiba inu]         136.088   91.774  1.483 0.138  -43.786  315.962
-Group Var                            11983.890   23.745                               
+Intercept                              986.884   47.838 20.630 0.000  893.124 1080.645
+Sex[T.male]                           -140.138   67.358 -2.080 0.037 -272.157   -8.119
+Breed[T.german shepherd]              -165.669   67.073 -2.470 0.014 -297.129  -34.208
+Breed[T.husky]                        -189.644   66.788 -2.839 0.005 -320.546  -58.742
+Breed[T.pitbull]                      -259.212   67.550 -3.837 0.000 -391.607 -126.816
+Breed[T.shiba inu]                    -102.881   66.788 -1.540 0.123 -233.783   28.021
+Sex[T.male]:Breed[T.german shepherd]    56.363   94.636  0.596 0.551 -129.120  241.847
+Sex[T.male]:Breed[T.husky]              29.415   94.242  0.312 0.755 -155.295  214.125
+Sex[T.male]:Breed[T.pitbull]           197.497   95.392  2.070 0.038   10.533  384.462
+Sex[T.male]:Breed[T.shiba inu]         122.871   94.242  1.304 0.192  -61.839  307.581
+Group Var                            12866.336   24.681                               
 ======================================================================================
 
 ```
 
 #### Key Results
 
-**Sex effect (male vs female):** -140.078 (p=0.032)
+**Sex effect (male vs female):** -140.138 (p=0.037)
 
 **Breed Effects (vs reference breed):**
-- german shepherd: -190.141 (p=0.004)
-- husky: -189.659 (p=0.003)
-- pitbull: -259.164 (p=0.000)
-- shiba inu: -116.172 (p=0.075)
+- german shepherd: -165.669 (p=0.014)
+- husky: -189.644 (p=0.005)
+- pitbull: -259.212 (p=0.000)
+- shiba inu: -102.881 (p=0.123)
 
 **Interaction Effects (Sex × Breed):**
-- Male × german shepherd: 72.002 (p=0.435)
-- Male × husky: 29.355 (p=0.749)
-- Male × pitbull: 197.470 (p=0.033)
-- Male × shiba inu: 136.088 (p=0.138)
+- Male × german shepherd: 56.363 (p=0.551)
+- Male × husky: 29.415 (p=0.755)
+- Male × pitbull: 197.497 (p=0.038)
+- Male × shiba inu: 122.871 (p=0.192)
 
 ### Model Results: F2_mean
 
 #### Full Model Summary
 ```
                         Mixed Linear Model Regression Results
-=====================================================================================
-Model:                       MixedLM          Dependent Variable:          F2_mean   
-No. Observations:            286              Method:                      REML      
-No. Groups:                  100              Scale:                       49207.5127
-Min. group size:             1                Log-Likelihood:              -1919.4713
-Max. group size:             3                Converged:                   Yes       
-Mean group size:             2.9                                                     
--------------------------------------------------------------------------------------
-                                      Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
--------------------------------------------------------------------------------------
-Intercept                            1680.467   53.097 31.649 0.000 1576.400 1784.534
-Sex[T.male]                           -68.489   74.623 -0.918 0.359 -214.747   77.770
-Breed[T.german shepherd]              -72.974   74.170 -0.984 0.325 -218.344   72.395
-Breed[T.husky]                        -19.717   73.734 -0.267 0.789 -164.232  124.798
-Breed[T.pitbull]                      -78.508   74.779 -1.050 0.294 -225.072   68.056
-Breed[T.shiba inu]                     39.945   74.166  0.539 0.590 -105.418  185.309
-Sex[T.male]:Breed[T.german shepherd]    5.177  104.876  0.049 0.961 -200.377  210.730
-Sex[T.male]:Breed[T.husky]           -113.281  103.939 -1.090 0.276 -316.999   90.436
-Sex[T.male]:Breed[T.pitbull]          237.603  105.691  2.248 0.025   30.452  444.754
-Sex[T.male]:Breed[T.shiba inu]         22.667  104.246  0.217 0.828 -181.652  226.985
-Group Var                            9771.569   21.960                               
-=====================================================================================
+======================================================================================
+Model:                      MixedLM           Dependent Variable:           F2_mean   
+No. Observations:           288               Method:                       REML      
+No. Groups:                 100               Scale:                        47586.8498
+Min. group size:            1                 Log-Likelihood:               -1932.2792
+Max. group size:            3                 Converged:                    Yes       
+Mean group size:            2.9                                                       
+--------------------------------------------------------------------------------------
+                                       Coef.   Std.Err.   z    P>|z|  [0.025   0.975] 
+--------------------------------------------------------------------------------------
+Intercept                             1680.368   54.321 30.934 0.000 1573.901 1786.834
+Sex[T.male]                            -68.895   76.374 -0.902 0.367 -218.586   80.796
+Breed[T.german shepherd]               -44.710   75.946 -0.589 0.556 -193.563  104.142
+Breed[T.husky]                         -19.618   75.521 -0.260 0.795 -167.636  128.400
+Breed[T.pitbull]                       -78.992   76.552 -1.032 0.302 -229.032   71.048
+Breed[T.shiba inu]                      52.559   75.521  0.696 0.486  -95.460  200.577
+Sex[T.male]:Breed[T.german shepherd]   -14.434  107.068 -0.135 0.893 -224.284  195.416
+Sex[T.male]:Breed[T.husky]            -112.875  106.482 -1.060 0.289 -321.576   95.826
+Sex[T.male]:Breed[T.pitbull]           239.146  108.179  2.211 0.027   27.118  451.174
+Sex[T.male]:Breed[T.shiba inu]          10.558  106.482  0.099 0.921 -198.143  219.259
+Group Var                            11664.564   23.549                               
+======================================================================================
 
 ```
 
 #### Key Results
 
-**Sex effect (male vs female):** -68.489 (p=0.359)
+**Sex effect (male vs female):** -68.895 (p=0.367)
 
 **Breed Effects (vs reference breed):**
-- german shepherd: -72.974 (p=0.325)
-- husky: -19.717 (p=0.789)
-- pitbull: -78.508 (p=0.294)
-- shiba inu: 39.945 (p=0.590)
+- german shepherd: -44.710 (p=0.556)
+- husky: -19.618 (p=0.795)
+- pitbull: -78.992 (p=0.302)
+- shiba inu: 52.559 (p=0.486)
 
 **Interaction Effects (Sex × Breed):**
-- Male × german shepherd: 5.177 (p=0.961)
-- Male × husky: -113.281 (p=0.276)
-- Male × pitbull: 237.603 (p=0.025)
-- Male × shiba inu: 22.667 (p=0.828)
+- Male × german shepherd: -14.434 (p=0.893)
+- Male × husky: -112.875 (p=0.289)
+- Male × pitbull: 239.146 (p=0.027)
+- Male × shiba inu: 10.558 (p=0.921)
 
 ---
 
@@ -260,7 +384,9 @@ Group Var                            9771.569   21.960
 
 | Feature | Cohen's d | t-statistic | p-value |
 |---------|-----------|-------------|---------|
-| F0_mean | 0.539 | 1.997 | 0.051 |
+| F0_mean | 0.325 | 1.207 | 0.233 |
+| F0_min | 0.226 | 0.840 | 0.405 |
+| F0_max | 0.165 | 0.613 | 0.542 |
 | F1_mean | 0.762 | 2.823 | 0.007 |
 | F2_mean | 0.326 | 1.210 | 0.232 |
 
@@ -268,15 +394,19 @@ Group Var                            9771.569   21.960
 
 | Feature | Cohen's d | t-statistic | p-value |
 |---------|-----------|-------------|---------|
-| F0_mean | 0.089 | 0.335 | 0.739 |
-| F1_mean | 0.377 | 1.422 | 0.161 |
-| F2_mean | 0.282 | 1.065 | 0.292 |
+| F0_mean | 0.286 | 1.088 | 0.281 |
+| F0_min | 0.031 | 0.119 | 0.906 |
+| F0_max | 0.187 | 0.711 | 0.480 |
+| F1_mean | 0.382 | 1.455 | 0.151 |
+| F2_mean | 0.360 | 1.370 | 0.176 |
 
 ### HUSKY
 
 | Feature | Cohen's d | t-statistic | p-value |
 |---------|-----------|-------------|---------|
-| F0_mean | -0.019 | -0.074 | 0.941 |
+| F0_mean | 0.478 | 1.849 | 0.070 |
+| F0_min | 0.058 | 0.226 | 0.822 |
+| F0_max | 0.752 | 2.914 | 0.005 |
 | F1_mean | 0.649 | 2.512 | 0.015 |
 | F2_mean | 0.743 | 2.877 | 0.006 |
 
@@ -284,7 +414,9 @@ Group Var                            9771.569   21.960
 
 | Feature | Cohen's d | t-statistic | p-value |
 |---------|-----------|-------------|---------|
-| F0_mean | 0.641 | 2.376 | 0.021 |
+| F0_mean | 0.218 | 0.808 | 0.423 |
+| F0_min | 0.309 | 1.145 | 0.257 |
+| F0_max | 0.071 | 0.262 | 0.795 |
 | F1_mean | -0.298 | -1.105 | 0.274 |
 | F2_mean | -0.654 | -2.423 | 0.019 |
 
@@ -292,9 +424,11 @@ Group Var                            9771.569   21.960
 
 | Feature | Cohen's d | t-statistic | p-value |
 |---------|-----------|-------------|---------|
-| F0_mean | 0.234 | 0.898 | 0.373 |
-| F1_mean | 0.017 | 0.067 | 0.947 |
-| F2_mean | 0.165 | 0.633 | 0.529 |
+| F0_mean | -0.008 | -0.031 | 0.975 |
+| F0_min | 0.274 | 1.061 | 0.293 |
+| F0_max | -0.049 | -0.189 | 0.851 |
+| F1_mean | 0.079 | 0.307 | 0.760 |
+| F2_mean | 0.209 | 0.810 | 0.421 |
 
 ---
 
@@ -304,9 +438,34 @@ Group Var                            9771.569   21.960
 
 *Figure 1: Box plots (top row) and violin plots (bottom row) showing the distribution of acoustic features by breed and sex.*
 
-![Effect Sizes Heatmap](effect_sizes_heatmap.png)
+![F0 Analysis Complete](f0_analysis_complete.png)
 
-*Figure 2: Heatmap showing Cohen's d effect sizes for sex differences across breeds and acoustic features. Positive values indicate females have higher values than males.*
+*Figure 3: Box plots (top row) and violin plots (bottom row) showing all F0 measures (mean, minimum, maximum) by breed and sex. This provides a comprehensive view of fundamental frequency patterns.*
+
+![Effect Sizes Heatmap Complete](effect_sizes_heatmap_complete.png)
+
+*Figure 2: Heatmap showing Cohen's d effect sizes for sex differences across breeds and all acoustic features. Positive values indicate females have higher values than males.*
+
+### F0 Range Analysis
+
+Understanding F0 range (F0_max - F0_min) can provide insights into vocal flexibility:
+
+| Breed | Sex | Mean F0 Range (Hz) | Std F0 Range |
+|-------|-----|-------------------|--------------|
+| chihuahua | female | 292.6 | 234.9 |
+| chihuahua | male | 297.1 | 213.0 |
+| german shepherd | female | 359.3 | 231.8 |
+| german shepherd | male | 331.6 | 213.7 |
+| husky | female | 412.2 | 214.7 |
+| husky | male | 289.3 | 188.1 |
+| pitbull | female | 329.4 | 176.6 |
+| pitbull | male | 359.6 | 257.8 |
+| shiba inu | female | 340.5 | 220.0 |
+| shiba inu | male | 394.5 | 244.8 |
+
+![F0 Range Analysis](f0_range_analysis.png)
+
+*Figure 4: F0 range analysis showing vocal flexibility. Left: F0 range by breed and sex. Right: Relationship between F0 mean and range.*
 
 ---
 
@@ -326,17 +485,25 @@ Group Var                            9771.569   21.960
    - Chihuahua should show smaller effect sizes
    - Look for non-significant interactions in small breeds
 
+4. **F0 range may show different patterns than mean F0:**
+   - F0 range reflects vocal flexibility and dynamic range
+   - May vary independently of average F0 values
+
 ### Interpretation Guidelines
 
 - **Cohen's d:** 0.2 = small, 0.5 = medium, 0.8 = large effect
 - **p < 0.05** indicates statistical significance
 - **Interaction effects** show breed-specific sex differences
+- **F0_min:** Lowest fundamental frequency in the vocalization
+- **F0_max:** Highest fundamental frequency in the vocalization
+- **F0_range:** F0_max - F0_min, indicates vocal flexibility
 
 ### Model Specification
 
 The Linear Mixed-Effects Models account for:
 - **Fixed effects:** Sex, Breed, and their interaction
 - **Random effects:** Individual dog variation (dog_id)
+- **Separate models** for F0_mean, F0_min, F0_max, F1_mean, and F2_mean
 
 ---
 

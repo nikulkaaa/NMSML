@@ -1,17 +1,15 @@
-################################################################################
 # Praat script: Extract F0, F1, F2 from all .wav files in a folder
-# Author: Nikola Bátová (simple version for debugging)
-################################################################################
+# Author: Nikola Bátová 
 
-# Set paths directly (no form dialog to avoid path issues)
-input_directory$ = "/Users/nika/Downloads/NMSML/DogSpeak_Subset/audio_files"
-output_file$ = "/Users/nika/Downloads/NMSML/formant_analysis_results.csv"
+# Set paths for input folder and output CSV file
+input_directory$ = "/Users/nika/Downloads/NMSML/data/raw/subset"
+output_file$ = "/Users/nika/Downloads/NMSML/data/features/feature_extraction_results.csv"
 
 # Create or overwrite CSV header
 filedelete 'output_file$'
 fileappend 'output_file$' Folder,File,Breed,Sex,F0_mean,F0_min,F0_max,F1_mean,F2_mean'newline$'
 
-# List of folders (hardcoded to avoid path issues)
+# List of folders to process
 folder1$ = "chihuahua_female"
 folder2$ = "chihuahua_male" 
 folder3$ = "german shepherd_female"
@@ -77,7 +75,7 @@ for folderNum from 1 to 10
         
         # Extract F0
         select Sound 'soundName$'
-        To Pitch (ac): 0.0, 75, 15, "no", 0.03, 0.45, 0.01, 0.35, 0.14, 500
+        To Pitch (ac): 0.0, 75, 15, "no", 0.03, 0.45, 0.01, 0.35, 0.14, 800
         f0_mean = Get mean: 0, 0, "Hertz"
         f0_min = Get minimum: 0, 0, "Hertz", "Parabolic"
         f0_max = Get maximum: 0, 0, "Hertz", "Parabolic"

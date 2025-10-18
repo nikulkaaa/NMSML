@@ -27,12 +27,9 @@ logger = logging.getLogger(__name__)
 def extract_id_from_url(drive_url: str) -> Tuple[Optional[str], str]:
     """
     Extract Google Drive ID from URL and determine if it's a file or folder.
-    
-    Args:
-        drive_url: Google Drive sharing URL
-        
-    Returns:
-        Tuple of (ID, type) where type is 'file' or 'folder'
+
+    :param drive_url: Google Drive sharing URL
+    :return: Tuple of (ID, type) where type is 'file' or 'folder'
     """
     # File URL patterns
     file_patterns = [
@@ -63,13 +60,10 @@ def extract_id_from_url(drive_url: str) -> Tuple[Optional[str], str]:
 def download_file_from_google_drive(file_id: str, destination: str) -> bool:
     """
     Download a file from Google Drive using its file ID.
-    
-    Args:
-        file_id: Google Drive file ID
-        destination: Path where to save the file
-    
-    Returns:
-        True if download successful, False otherwise
+
+    :param file_id: Google Drive file ID
+    :param destination: Path where to save the file
+    :return: True if download successful, False otherwise
     """
     
     logger.info(f"Starting download from Google Drive...")
@@ -100,12 +94,9 @@ def download_file_from_google_drive(file_id: str, destination: str) -> bool:
 def get_confirm_token(response: requests.Response) -> Optional[str]:
     """
     Extract confirmation token from Google Drive response.
-    
-    Args:
-        response: HTTP response from Google Drive
-        
-    Returns:
-        Confirmation token if found, None otherwise
+
+    :param response: HTTP response from Google Drive
+    :return: Confirmation token if found, None otherwise
     """
     for key, value in response.cookies.items():
         if key.startswith('download_warning'):
@@ -115,10 +106,10 @@ def get_confirm_token(response: requests.Response) -> Optional[str]:
 def save_response_content(response: requests.Response, destination: str) -> None:
     """
     Save the response content to a file with progress indication.
-    
-    Args:
-        response: HTTP response to save
-        destination: File path to save to
+
+    :param response: HTTP response to save
+    :param destination: File path to save to
+    :return: None
     """
     CHUNK_SIZE = 32768
     
@@ -145,13 +136,10 @@ def save_response_content(response: requests.Response, destination: str) -> None
 def extract_and_organize_subset(zip_path: str, base_dir: str) -> Optional[Dict[str, Any]]:
     """
     Extract the downloaded zip file and organize it in the expected structure.
-    
-    Args:
-        zip_path: Path to the downloaded zip file
-        base_dir: Base directory for the project
-        
-    Returns:
-        Dictionary containing extraction summary, None if failed
+
+    :param zip_path: Path to the downloaded zip file
+    :param base_dir: Base directory for the project
+    :return: Dictionary containing extraction summary, None if failed
     """
     
     logger.info("Extracting subset data...")
@@ -222,12 +210,9 @@ def extract_and_organize_subset(zip_path: str, base_dir: str) -> Optional[Dict[s
 def analyze_subset_structure(subset_dir: Path) -> Dict[str, Any]:
     """
     Analyze the structure of the extracted subset.
-    
-    Args:
-        subset_dir: Path to subset directory
-        
-    Returns:
-        Dictionary containing analysis summary
+
+    :param subset_dir: Path to subset directory
+    :return: Dictionary containing analysis summary
     """
     
     logger.info("Analyzing subset structure...")
@@ -279,13 +264,10 @@ def analyze_subset_structure(subset_dir: Path) -> Dict[str, Any]:
 def create_metadata_from_structure(subset_dir: Path, base_path: Path) -> Optional[Path]:
     """
     Create metadata CSV from the subset directory structure.
-    
-    Args:
-        subset_dir: Path to subset directory
-        base_path: Base project path
-        
-    Returns:
-        Path to created metadata file, None if failed
+
+    :param subset_dir: Path to subset directory
+    :param base_path: Base project path
+    :return: Path to created metadata file, None if failed
     """
     
     logger.info("Creating metadata from directory structure...")
@@ -344,14 +326,11 @@ def create_metadata_from_structure(subset_dir: Path, base_path: Path) -> Optiona
 def create_download_report(base_path: Path, summary: Dict[str, Any], source_info: str) -> Path:
     """
     Create a report of the download and extraction process.
-    
-    Args:
-        base_path: Base project path
-        summary: Extraction summary dictionary
-        source_info: Information about the source (folder ID or file ID)
-        
-    Returns:
-        Path to created report file
+
+    :param base_path: Base project path
+    :param summary: Extraction summary dictionary
+    :param source_info: Information about the source (folder ID or file ID)
+    :return: Path to created report file
     """
     
     exploration_dir = base_path / "data" / "exploration"
@@ -388,9 +367,8 @@ def create_download_report(base_path: Path, summary: Dict[str, Any], source_info
 def main() -> int:
     """
     Main function to download and setup subset from Google Drive.
-    
-    Returns:
-        Exit code (0 for success, 1 for failure)
+
+    :return: Exit code (0 for success, 1 for failure)
     """
     
     # Configuration
